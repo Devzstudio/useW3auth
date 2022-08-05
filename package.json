@@ -1,7 +1,7 @@
 {
-  "name": "@devzstudio/usew3auth",
-  "version": "0.8.0",
-  "description": "Devzstudio CPA Hook",
+  "name": "@devzstudio/w3auth-hook",
+  "version": "0.0.1",
+  "description": "w3auth Hook",
   "author": "devzstudio",
   "license": "Apache-2.0",
   "repository": {
