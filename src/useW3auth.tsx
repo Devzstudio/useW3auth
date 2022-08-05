@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import toast from 'react-hot-toast';
-import useW3authAPI from './useW3authAPI';
+import { useW3authAPI } from './useW3authAPI';
 
 interface IuseW3auth {
   API_URL?: string;
@@ -130,4 +130,4 @@ const useW3auth = ({
   };
 };
 
-export default useW3auth;
+export { useW3auth };

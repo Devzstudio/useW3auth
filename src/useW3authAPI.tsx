@@ -74,4 +74,4 @@ const useW3authAPI = (API_URL = '') => {
   };
 };
 
-export default useW3authAPI;
+export { useW3authAPI };
