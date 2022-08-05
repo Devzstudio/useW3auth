@@ -1,12 +1,12 @@
 {
   "name": "@devzstudio/w3auth-hook",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "w3auth Hook",
   "author": "devzstudio",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devzstudio/useW3auth.git"
+    "url": "https://github.com/devzstudio/w3auth-hook.git"
   },
   "main": "dist/index.js",
   "engines": {
