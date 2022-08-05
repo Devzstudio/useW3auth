@@ -17,7 +17,7 @@ const useW3auth = ({
   API_URL = '',
   wallet_address,
   token,
-  signMessageText,
+  signMessageText = `Welcome , please sign this message to verify your identity.`,
   signMessage,
   onLogout,
   onSignIn,
@@ -67,7 +67,7 @@ const useW3auth = ({
       }
 
       if (nonceData.nonce) {
-        const message = `${signMessageText} ${nonceData.nonce} \n Address: ${wallet_address}`;
+        const message = `${signMessageText} Nonce: ${nonceData.nonce} \n Address: ${wallet_address}`;
         setSignedText(message);
         await signMessage(message);
       }
